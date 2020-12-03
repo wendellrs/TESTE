@@ -1,0 +1,21 @@
+O primeiro passo é encontrar a pasta onde o git foi instalado, dentro dessa pasta deve haver uma outra pasta chamada bin. Você deve copiar o caminho completo dessa pasta, algo como:
+
+C:/Arquivos de Programas/Git/bin
+
+E depois no terminal, você executa o seguinte comando:
+
+setx PATH "%PATH%;C:/Arquivos de Programas/Git/bin"
+
+$ git config --global user.name "Fulano de Tal"
+$ git config --global user.email fulanodetal@exemplo.br
+
+
+git init - inicia um repositorio git
+git clone - clona a pasta de repositório do github ou local
+git add * - coloca todos arquivos no git (index)
+git push - envia projeto para o servidor remoto
+
+*configurar o push 
+git remote add nome servidor
+
+git push --set-upstream nome master
